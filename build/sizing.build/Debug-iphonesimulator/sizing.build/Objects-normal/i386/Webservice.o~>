@@ -1,0 +1,9 @@
+/Users/ethan/Documents/sizing/Classes/Webservice.m:9:24: error: Webservices.h: No such file or directory
+/Users/ethan/Documents/sizing/Classes/Webservice.m:14: warning: cannot find interface declaration for 'Webservices'
+/Users/ethan/Documents/sizing/Classes/Webservice.m: In function '+[Webservices callRestService::]':
+/Users/ethan/Documents/sizing/Classes/Webservice.m:16: error: 'WebServices' undeclared (first use in this function)
+/Users/ethan/Documents/sizing/Classes/Webservice.m:16: error: (Each undeclared identifier is reported only once
+/Users/ethan/Documents/sizing/Classes/Webservice.m:16: error: for each function it appears in.)
+/Users/ethan/Documents/sizing/Classes/Webservice.m:17: error: 'XmlParser' undeclared (first use in this function)
+/Users/ethan/Documents/sizing/Classes/Webservice.m:17: error: 'xmlParser' undeclared (first use in this function)
+/Users/ethan/Documents/sizing/Classes/Webservice.m:27: warning: control reaches end of non-void function

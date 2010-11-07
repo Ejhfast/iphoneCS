@@ -1,0 +1,8 @@
+/Users/ethan/Documents/sizing/Classes/XMLParser.m: In function '-[XmlParser parser:foundCharacters:]':
+/Users/ethan/Documents/sizing/Classes/XMLParser.m:35: warning: 'NSString' may not respond to '-appendString:'
+/Users/ethan/Documents/sizing/Classes/XMLParser.m:35: warning: (Messages without a matching method signature
+/Users/ethan/Documents/sizing/Classes/XMLParser.m:35: warning: will be assumed to return 'id' and accept
+/Users/ethan/Documents/sizing/Classes/XMLParser.m:35: warning: '...' as arguments.)
+/Users/ethan/Documents/sizing/Classes/XMLParser.m: At top level:
+/Users/ethan/Documents/sizing/Classes/XMLParser.m:40: warning: property 'currentElement' requires method '-currentElement' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/ethan/Documents/sizing/Classes/XMLParser.m:40: warning: property 'currentElement' requires the method 'setCurrentElement:' to be defined - use @synthesize, @dynamic or provide a method implementation

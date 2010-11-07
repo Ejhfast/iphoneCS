@@ -1,0 +1,4 @@
+/Users/ethan/Documents/sizing/Classes/sizingAppDelegate.m:90: warning: property 'response' requires method '-response' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/ethan/Documents/sizing/Classes/sizingAppDelegate.m:90: warning: property 'response' requires the method 'setResponse:' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/ethan/Documents/sizing/Classes/sizingAppDelegate.m:90: warning: property 'sizes' requires method '-sizes' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/ethan/Documents/sizing/Classes/sizingAppDelegate.m:90: warning: property 'sizes' requires the method 'setSizes:' to be defined - use @synthesize, @dynamic or provide a method implementation

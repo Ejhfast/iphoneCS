@@ -1,0 +1,900 @@
+Tsizing
+v7
+r0
+t310848130.061480
+cCheck dependencies
+cProcessInfoPlistFile /Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app/Info.plist sizing-Info.plist
+cCompileXIB /Users/ethan/Documents/sizing/MainWindow.xib
+cCompileXIB /Users/ethan/Documents/sizing/sizingViewController.xib
+cProcessPCH /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sizing_Prefix-eqerlsbbkygfzkdsvozaeexjmszb/sizing_Prefix.pch.gch sizing_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/main.o /Users/ethan/Documents/sizing/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/sizingAppDelegate.o /Users/ethan/Documents/sizing/Classes/sizingAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/sizingViewController.o /Users/ethan/Documents/sizing/Classes/sizingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/XMLParser.o /Users/ethan/Documents/sizing/Classes/XMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/Webservices.o /Users/ethan/Documents/sizing/Classes/Webservices.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app/sizing normal i386
+cGenerateDSYMFile /Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app.dSYM /Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app/sizing
+cTouch /Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSXMLParser.h
+c000000004C5A4DA20000000000002D38
+t1280986530
+s11576
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml/tree.h
+c000000004C5A4D3F0000000000008F14
+t1280986431
+s36628
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml/xpath.h
+c000000004C5A4D3F0000000000003F47
+t1280986431
+s16199
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml/xpathInternals.h
+c000000004C5A4D3F0000000000004BF8
+t1280986431
+s19448
+
+N/Users/ethan/Documents/sizing/Classes/DDXML.h
+c000000004AE60C670000000000000049
+t1256590439
+s73
+i"DDXMLNode.h"
+i"DDXMLElement.h"
+i"DDXMLDocument.h"
+
+N/Users/ethan/Documents/sizing/Classes/DDXMLDocument.h
+c000000004AE60C670000000000000807
+t1256590439
+s2055
+i<Foundation/Foundation.h>
+i"DDXMLElement.h"
+i"DDXMLNode.h"
+
+N/Users/ethan/Documents/sizing/Classes/DDXMLDocument.m
+c000000004AE60C670000000000000BC3
+t1256590439
+s3011
+i"DDXMLDocument.h"
+i"NSStringAdditions.h"
+i"DDXMLPrivate.h"
+
+N/Users/ethan/Documents/sizing/Classes/DDXMLElement.h
+c000000004AE60C6700000000000006B0
+t1256590439
+s1712
+i<Foundation/Foundation.h>
+i"DDXMLNode.h"
+
+N/Users/ethan/Documents/sizing/Classes/DDXMLElement.m
+c000000004AE60C670000000000004042
+t1256590439
+s16450
+i"DDXMLElement.h"
+i"NSStringAdditions.h"
+i"DDXMLPrivate.h"
+
+N/Users/ethan/Documents/sizing/Classes/DDXMLElementAdditions.h
+c000000004AE60C670000000000000264
+t1256590439
+s612
+i<Foundation/Foundation.h>
+i"DDXML.h"
+
+N/Users/ethan/Documents/sizing/Classes/DDXMLElementAdditions.m
+c000000004AE60C670000000000000C1D
+t1256590439
+s3101
+i"DDXMLElementAdditions.h"
+
+N/Users/ethan/Documents/sizing/Classes/DDXMLNode.h
+c000000004AE60C670000000000001392
+t1256590439
+s5010
+i<Foundation/Foundation.h>
+i<libxml/tree.h>
+
+N/Users/ethan/Documents/sizing/Classes/DDXMLNode.m
+c000000004AE60C67000000000000B90F
+t1256590439
+s47375
+i"DDXMLNode.h"
+i"DDXMLElement.h"
+i"DDXMLDocument.h"
+i"NSStringAdditions.h"
+i"DDXMLPrivate.h"
+i<libxml/xpath.h>
+i<libxml/xpathInternals.h>
+
+N/Users/ethan/Documents/sizing/Classes/DDXMLPrivate.h
+c000000004AE60C670000000000000A61
+t1256590439
+s2657
+i"DDXMLNode.h"
+i"DDXMLElement.h"
+i"DDXMLDocument.h"
+
+N/Users/ethan/Documents/sizing/Classes/DDXMLTesting.h
+c000000004AE60C67000000000000005A
+t1256590439
+s90
+i<Cocoa/Cocoa.h>
+
+N/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m
+c000000004AE60C67000000000000D60D
+t1256590439
+s54797
+i"DDXMLTesting.h"
+i"DDXML.h"
+
+N/Users/ethan/Documents/sizing/Classes/NSStringAdditions.h
+c000000004AE60C6700000000000000FB
+t1256590439
+s251
+i<Foundation/Foundation.h>
+i<libxml/tree.h>
+
+N/Users/ethan/Documents/sizing/Classes/NSStringAdditions.m
+c000000004AE60C670000000000000175
+t1256590439
+s373
+i"NSStringAdditions.h"
+
+N/Users/ethan/Documents/sizing/Classes/Webservice.h
+c000000004CD6CB7900000000000000D8
+t1289145209
+s216
+i<Foundation/Foundation.h>
+
+N/Users/ethan/Documents/sizing/Classes/Webservice.m
+c000000004CD6CB2700000000000004EC
+t1289145127
+s1260
+i"Webservice.h"
+
+N/Users/ethan/Documents/sizing/Classes/Webservices.h
+c000000004CD6CFC50000000000000123
+t1289146309
+s291
+i<Foundation/Foundation.h>
+
+N/Users/ethan/Documents/sizing/Classes/Webservices.m
+c000000004CD6EE3200000000000002A8
+t1289154098
+s680
+i"Webservices.h"
+i"XMLParser.h"
+
+N/Users/ethan/Documents/sizing/Classes/XMLParser.h
+c000000004CD6EE170000000000000178
+t1289154071
+s376
+i<Foundation/Foundation.h>
+
+N/Users/ethan/Documents/sizing/Classes/XMLParser.m
+c000000004CD6F3970000000000000512
+t1289155479
+s1298
+i"XmlParser.h"
+
+N/Users/ethan/Documents/sizing/Classes/sizingAppDelegate.h
+c000000004CD6B30900000000000001DA
+t1289138953
+s474
+i<UIKit/UIKit.h>
+
+N/Users/ethan/Documents/sizing/Classes/sizingAppDelegate.m
+c000000004CD6B2EC0000000000000A86
+t1289138924
+s2694
+i"sizingAppDelegate.h"
+i"sizingViewController.h"
+
+N/Users/ethan/Documents/sizing/Classes/sizingViewController.h
+c000000004CD6CC520000000000000289
+t1289145426
+s649
+i<UIKit/UIKit.h>
+i"Webservices.h"
+
+N/Users/ethan/Documents/sizing/Classes/sizingViewController.m
+c000000004CD6F3010000000000000A7C
+t1289155329
+s2684
+i"sizingViewController.h"
+
+N/Users/ethan/Documents/sizing/MainWindow.xib
+c000000004CD6B0340000000000004E1D
+t1289138228
+s19997
+
+N/Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app
+t1289155330
+s238
+
+N/Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app.dSYM
+t1289155330
+s102
+
+N/Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app/Info.plist
+t1289138388
+s587
+
+N/Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app/MainWindow.nib
+t1289138389
+s1679
+
+N/Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app/PkgInfo
+t1289138388
+s8
+
+N/Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app/sizing
+t1289155330
+s25572
+
+N/Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app/sizingViewController.nib
+t1289142033
+s4212
+
+N/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/DDXMLDocument.o
+t1289143105
+s17124
+
+N/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/DDXMLElement.o
+t1289143105
+s43580
+
+N/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/DDXMLElementAdditions.o
+t1289143105
+s15004
+
+N/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/DDXMLNode.o
+t1289143105
+s84932
+
+N/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/DDXMLTesting.o
+t2
+s0
+
+N/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/NSStringAdditions.o
+t1289143105
+s7320
+
+N/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/Webservice.o
+t2
+s0
+
+N/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/Webservices.o
+t1289154119
+s8056
+
+N/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/XMLParser.o
+t1289154135
+s11072
+
+N/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/main.o
+t1289143105
+s6284
+
+N/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/sizing.LinkFileList
+c000000004CD6CB970000000000000254
+t1289145239
+s596
+
+N/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/sizingAppDelegate.o
+t1289146309
+s48580
+
+N/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/sizingViewController.o
+t1289155330
+s48464
+
+N/Users/ethan/Documents/sizing/main.m
+c000000004CD6B0350000000000000166
+t1289138229
+s358
+i<UIKit/UIKit.h>
+
+N/Users/ethan/Documents/sizing/sizingViewController.xib
+c000000004CD6BF060000000000006428
+t1289142022
+s25640
+
+N/Users/ethan/Documents/sizing/sizing_Prefix.pch
+c000000004CD6B03400000000000000B5
+t1289138228
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/usr/include/libxml2/libxml/tree.h
+c000000004C4DF5510000000000008F14
+t1280177489
+s36628
+
+N/usr/include/libxml2/libxml/xpath.h
+c000000004C4DF5510000000000003F47
+t1280177489
+s16199
+
+N/usr/include/libxml2/libxml/xpathInternals.h
+c000000004C4DF5510000000000004BF8
+t1280177489
+s19448
+
+N/var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sizing_Prefix-dcajvmulrlzyzrfxcsdktptnsrur/sizing_Prefix.pch.gch
+t1289143013
+s15211536
+
+N/var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sizing_Prefix-eqerlsbbkygfzkdsvozaeexjmszb/sizing_Prefix.pch.gch
+t1289143104
+s15211536
+
+N/var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sizing_Prefix-fcqkfartlufopjbpmcgyvvcxusak/sizing_Prefix.pch.gch
+t1289138392
+s15211536
+
+Nsizing-Info.plist
+c000000004CD6B034000000000000038D
+t1289138228
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies310848129#310848129#0(0"0(0#1#0"8621835456#0"0#
+
+CCompileC build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/DDXMLDocument.o /Users/ethan/Documents/sizing/Classes/DDXMLDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310835905.127815
+e310835905.415710
+r1
+xCompileC
+xbuild/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/DDXMLDocument.o
+x/Users/ethan/Documents/sizing/Classes/DDXMLDocument.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/ethan/Documents/sizing/Classes/DDXMLDocument.m310835905#310835905#0(0"0(0#0#53"/Users/ethan/Documents/sizing/Classes/DDXMLDocument.m8620418208#1874"    cd /Users/ethan/Documents/sizing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-generated-files.hmap -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-own-target-headers.hmap -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-all-target-headers.hmap -iquote /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-project-headers.hmap -F/Users/ethan/Documents/sizing/build/Debug-iphonesimulator -I/Users/ethan/Documents/sizing/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/DerivedSources/i386 -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/DerivedSources -include /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sizing_Prefix-eqerlsbbkygfzkdsvozaeexjmszb/sizing_Prefix.pch -c /Users/ethan/Documents/sizing/Classes/DDXMLDocument.m -o /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/DDXMLDocument.o0#
+
+CCompileC build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/DDXMLElement.o /Users/ethan/Documents/sizing/Classes/DDXMLElement.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310835905.217696
+e310835905.532439
+r1
+xCompileC
+xbuild/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/DDXMLElement.o
+x/Users/ethan/Documents/sizing/Classes/DDXMLElement.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/ethan/Documents/sizing/Classes/DDXMLElement.m310835905#310835905#0(0"0(0#0#52"/Users/ethan/Documents/sizing/Classes/DDXMLElement.m8621476128#1872"    cd /Users/ethan/Documents/sizing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-generated-files.hmap -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-own-target-headers.hmap -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-all-target-headers.hmap -iquote /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-project-headers.hmap -F/Users/ethan/Documents/sizing/build/Debug-iphonesimulator -I/Users/ethan/Documents/sizing/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/DerivedSources/i386 -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/DerivedSources -include /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sizing_Prefix-eqerlsbbkygfzkdsvozaeexjmszb/sizing_Prefix.pch -c /Users/ethan/Documents/sizing/Classes/DDXMLElement.m -o /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/DDXMLElement.o0#
+
+CCompileC build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/DDXMLElementAdditions.o /Users/ethan/Documents/sizing/Classes/DDXMLElementAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310835905.415828
+e310835905.526431
+r1
+xCompileC
+xbuild/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/DDXMLElementAdditions.o
+x/Users/ethan/Documents/sizing/Classes/DDXMLElementAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/ethan/Documents/sizing/Classes/DDXMLElementAdditions.m310835905#310835905#0(0"0(0#0#61"/Users/ethan/Documents/sizing/Classes/DDXMLElementAdditions.m8621715200#1890"    cd /Users/ethan/Documents/sizing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-generated-files.hmap -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-own-target-headers.hmap -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-all-target-headers.hmap -iquote /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-project-headers.hmap -F/Users/ethan/Documents/sizing/build/Debug-iphonesimulator -I/Users/ethan/Documents/sizing/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/DerivedSources/i386 -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/DerivedSources -include /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sizing_Prefix-eqerlsbbkygfzkdsvozaeexjmszb/sizing_Prefix.pch -c /Users/ethan/Documents/sizing/Classes/DDXMLElementAdditions.m -o /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/DDXMLElementAdditions.o0#
+
+CCompileC build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/DDXMLNode.o /Users/ethan/Documents/sizing/Classes/DDXMLNode.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310835905.526533
+e310835905.821212
+r1
+xCompileC
+xbuild/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/DDXMLNode.o
+x/Users/ethan/Documents/sizing/Classes/DDXMLNode.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/ethan/Documents/sizing/Classes/DDXMLNode.m310835905#310835905#0(0"0(0#0#49"/Users/ethan/Documents/sizing/Classes/DDXMLNode.m8620682016#1866"    cd /Users/ethan/Documents/sizing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-generated-files.hmap -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-own-target-headers.hmap -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-all-target-headers.hmap -iquote /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-project-headers.hmap -F/Users/ethan/Documents/sizing/build/Debug-iphonesimulator -I/Users/ethan/Documents/sizing/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/DerivedSources/i386 -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/DerivedSources -include /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sizing_Prefix-eqerlsbbkygfzkdsvozaeexjmszb/sizing_Prefix.pch -c /Users/ethan/Documents/sizing/Classes/DDXMLNode.m -o /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/DDXMLNode.o0#
+
+CCompileC build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/DDXMLTesting.o /Users/ethan/Documents/sizing/Classes/DDXMLTesting.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310835905.532539
+e310835905.750884
+r0
+xCompileC
+xbuild/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/DDXMLTesting.o
+x/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1:
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.h:1:24: error: Cocoa/Cocoa.h: No such file or directory
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testLocalName]':
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:89: error: 'NSXMLNode' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:89: error: (Each undeclared identifier is reported only once
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:89: error: for each function it appears in.)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:114: error: 'nsNode' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testPrefixName]':
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:130: error: 'NSXMLNode' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:155: error: 'nsNode' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testNsGeneral]':
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:219: error: 'NSXMLNode' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:219: error: 'nsNs' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testNsLevel]':
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:255: error: 'NSXMLElement' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:255: error: 'nsRoot' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:256: error: 'nsNode' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:257: error: 'NSXMLNode' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:257: error: 'nsNs0' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:258: error: 'nsNs1' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:259: error: 'nsNs2' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testNsURI]':
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:291: error: 'NSXMLElement' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:291: error: 'nsNode' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:307: error: 'NSXMLNode' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:307: error: 'nsAttr' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testAttrGeneral]':
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:331: error: 'NSXMLNode' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:331: error: 'nsAttr' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testAttrSiblings]':
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:365: error: 'NSXMLElement' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:365: error: 'nsNode' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:366: error: 'NSXMLNode' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:375: error: 'nsAttr' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testAttrDocOrder]':
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:401: error: 'NSXMLElement' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:401: error: 'nsNode' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:402: error: 'NSXMLNode' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:411: error: 'nsAttr' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:414: error: 'nsTest1' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:419: error: 'nsTest2' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testAttrChildren]':
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:434: error: 'NSXMLNode' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:434: error: 'nsAttr1' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:437: error: 'nsTest1' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testString]':
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:477: error: 'NSXMLElement' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:477: error: 'nsNode0' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:478: error: 'nsNode1' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:479: error: 'nsNode2' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:480: error: 'nsNode3' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:481: error: 'nsNode4' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:482: error: 'nsNode5' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:483: error: 'nsNode6' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:484: error: 'nsNode7' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:485: error: 'nsNode8' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:515: error: 'NSXMLNode' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:515: error: 'nsAttr1' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testChildren]':
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:577: error: 'NSXMLDocument' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:577: error: 'nsDoc' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testPreviousNextNode1]':
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:617: error: 'NSXMLElement' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:617: error: 'nsNode0' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:618: error: 'nsNode1' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:619: error: 'nsNode2' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:620: error: 'nsNode3' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:621: error: 'nsNode4' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:622: error: 'nsNode5' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:623: error: 'nsNode6' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:624: error: 'nsNode7' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:625: error: 'nsNode8' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testPreviousNextNode2]':
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:714: error: 'NSXMLDocument' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:714: error: 'nsDoc' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:717: error: 'NSXMLNode' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:717: error: 'nsNode0' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:720: error: 'nsNode2' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:723: error: 'nsNode3' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:726: error: 'nsNode5' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:729: error: 'nsNode6' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:732: error: 'nsNode8' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testPrefix]':
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:785: error: 'NSXMLElement' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:785: error: 'nsNode1' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:786: error: 'nsNode2' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:787: error: 'nsNode3' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:788: error: 'nsNode4' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testURI]':
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:831: error: 'NSXMLElement' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:831: error: 'nsRoot' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:832: error: 'NSXMLNode' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:835: error: 'nsNode1' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:838: error: 'nsNode2' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:841: error: 'nsNode3' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:844: error: 'nsNode4' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:847: error: 'nsNode5' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testXmlns]':
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:957: error: 'NSXMLDocument' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:957: error: 'nsDoc' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:958: error: 'NSXMLElement' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:958: error: 'nsRootElement' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1010: error: 'nsNode' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1011: error: 'NSXMLNode' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testCopy]':
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1050: error: 'NSXMLDocument' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1050: error: 'nsDoc' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1055: error: 'nsDocCopy' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1056: error: 'NSXMLNode' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1058: error: 'nsDocAttr' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1059: error: 'nsDocCopyAttr' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1075: error: 'NSXMLElement' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1075: error: 'nsElement' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1076: error: 'nsElementCopy' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1083: error: 'nsElementAttr' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1084: error: 'nsElementCopyAttr' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1105: error: 'nsAttr' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1106: error: 'nsAttrCopy' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testElements]':
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1182: error: 'NSXMLDocument' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1182: error: 'nsDoc' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1187: error: 'NSXMLNode' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1187: error: 'child' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1189: error: 'NSXMLElementKind' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1191: error: 'NSXMLElement' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testXPath]':
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1238: error: 'NSXMLDocument' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1238: error: 'nsDoc' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1246: error: 'NSXMLElement' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1246: error: 'nsMenu' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1267: error: 'nsBeer' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1300: error: 'nsElement1' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1301: error: 'nsElement2' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1320: error: 'NSXMLNode' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1320: error: 'nsAttr' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1321: error: 'ddAttr' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testNodesForXPath]':
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1353: error: 'NSXMLDocument' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1353: error: 'nsDoc' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1394: error: 'NSXMLElement' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1394: error: 'nsElement1' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1395: error: 'nsElement2' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testNSXMLBugs]':
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1425: error: 'NSXMLDocument' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1425: error: 'nsDoc' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testInsertChild]':
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1449: error: 'NSXMLElement' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1449: error: 'nsParent' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1452: error: 'nsChild2' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1460: error: 'nsChild0' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1468: error: 'nsChild1' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1476: error: 'nsChild3' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testElementSerialization]':
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1502: error: 'NSXMLElement' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1502: error: 'nse' undeclared (first use in this function)
+o{standard input}:267:non-relocatable subtraction expression, "LC0" minus "L00000000001$pb"
+o{standard input}:267:symbol: "LC0" can't be undefined in a subtraction expression
+o{standard input}:261:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_28" minus "L00000000001$pb"
+o{standard input}:261:symbol: "L_OBJC_SELECTOR_REFERENCES_28" can't be undefined in a subtraction expression
+o{standard input}:254:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_27" minus "L00000000001$pb"
+o{standard input}:254:symbol: "L_OBJC_SELECTOR_REFERENCES_27" can't be undefined in a subtraction expression
+o{standard input}:247:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_26" minus "L00000000001$pb"
+o{standard input}:247:symbol: "L_OBJC_SELECTOR_REFERENCES_26" can't be undefined in a subtraction expression
+o{standard input}:240:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_25" minus "L00000000001$pb"
+o{standard input}:240:symbol: "L_OBJC_SELECTOR_REFERENCES_25" can't be undefined in a subtraction expression
+o{standard input}:233:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_24" minus "L00000000001$pb"
+o{standard input}:233:symbol: "L_OBJC_SELECTOR_REFERENCES_24" can't be undefined in a subtraction expression
+o{standard input}:226:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_23" minus "L00000000001$pb"
+o{standard input}:226:symbol: "L_OBJC_SELECTOR_REFERENCES_23" can't be undefined in a subtraction expression
+o{standard input}:219:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000001$pb"
+o{standard input}:219:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression
+o{standard input}:212:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000001$pb"
+o{standard input}:212:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression
+o{standard input}:205:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000001$pb"
+o{standard input}:205:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:198:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000001$pb"
+o{standard input}:198:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression
+o{standard input}:191:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000001$pb"
+o{standard input}:191:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:184:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000001$pb"
+o{standard input}:184:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression
+o{standard input}:177:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000001$pb"
+o{standard input}:177:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression
+o{standard input}:170:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000001$pb"
+o{standard input}:170:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression
+o{standard input}:163:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000001$pb"
+o{standard input}:163:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression
+o{standard input}:156:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000001$pb"
+o{standard input}:156:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression
+o{standard input}:149:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000001$pb"
+o{standard input}:149:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression
+o{standard input}:142:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000001$pb"
+o{standard input}:142:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression
+o{standard input}:135:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000001$pb"
+o{standard input}:135:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:128:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000001$pb"
+o{standard input}:128:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:121:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000001$pb"
+o{standard input}:121:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression
+o{standard input}:114:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000001$pb"
+o{standard input}:114:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:107:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000001$pb"
+o{standard input}:107:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:100:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000001$pb"
+o{standard input}:100:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:93:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"
+o{standard input}:93:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:86:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"
+o{standard input}:86:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:79:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"
+o{standard input}:79:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:72:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
+o{standard input}:72:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:64:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:64:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:61:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000001$pb"
+o{standard input}:61:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_15
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_16
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_17
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_18
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_19
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_20
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_21
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_22
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_23
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_24
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_25
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_26
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_27
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_28
+o{standard input}:unknown:Undefined local symbol LC0
+lSLF07#2@60"Compile /Users/ethan/Documents/sizing/Classes/DDXMLTesting.m310835905#310835905#0(26905"In file included from /Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1:/Users/ethan/Documents/sizing/Classes/DDXMLTesting.h:1:24: error: Cocoa/Cocoa.h: No such file or directory/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testLocalName]':/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:89: error: 'NSXMLNode' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:89: error: (Each undeclared identifier is reported only once/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:89: error: for each function it appears in.)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:114: error: 'nsNode' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testPrefixName]':/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:130: error: 'NSXMLNode' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:155: error: 'nsNode' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testNsGeneral]':/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:219: error: 'NSXMLNode' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:219: error: 'nsNs' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testNsLevel]':/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:255: error: 'NSXMLElement' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:255: error: 'nsRoot' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:256: error: 'nsNode' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:257: error: 'NSXMLNode' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:257: error: 'nsNs0' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:258: error: 'nsNs1' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:259: error: 'nsNs2' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testNsURI]':/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:291: error: 'NSXMLElement' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:291: error: 'nsNode' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:307: error: 'NSXMLNode' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:307: error: 'nsAttr' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testAttrGeneral]':/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:331: error: 'NSXMLNode' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:331: error: 'nsAttr' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testAttrSiblings]':/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:365: error: 'NSXMLElement' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:365: error: 'nsNode' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:366: error: 'NSXMLNode' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:375: error: 'nsAttr' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testAttrDocOrder]':/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:401: error: 'NSXMLElement' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:401: error: 'nsNode' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:402: error: 'NSXMLNode' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:411: error: 'nsAttr' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:414: error: 'nsTest1' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:419: error: 'nsTest2' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testAttrChildren]':/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:434: error: 'NSXMLNode' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:434: error: 'nsAttr1' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:437: error: 'nsTest1' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testString]':/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:477: error: 'NSXMLElement' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:477: error: 'nsNode0' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:478: error: 'nsNode1' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:479: error: 'nsNode2' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:480: error: 'nsNode3' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:481: error: 'nsNode4' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:482: error: 'nsNode5' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:483: error: 'nsNode6' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:484: error: 'nsNode7' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:485: error: 'nsNode8' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:515: error: 'NSXMLNode' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:515: error: 'nsAttr1' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testChildren]':/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:577: error: 'NSXMLDocument' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:577: error: 'nsDoc' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testPreviousNextNode1]':/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:617: error: 'NSXMLElement' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:617: error: 'nsNode0' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:618: error: 'nsNode1' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:619: error: 'nsNode2' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:620: error: 'nsNode3' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:621: error: 'nsNode4' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:622: error: 'nsNode5' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:623: error: 'nsNode6' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:624: error: 'nsNode7' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:625: error: 'nsNode8' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testPreviousNextNode2]':/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:714: error: 'NSXMLDocument' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:714: error: 'nsDoc' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:717: error: 'NSXMLNode' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:717: error: 'nsNode0' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:720: error: 'nsNode2' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:723: error: 'nsNode3' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:726: error: 'nsNode5' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:729: error: 'nsNode6' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:732: error: 'nsNode8' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testPrefix]':/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:785: error: 'NSXMLElement' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:785: error: 'nsNode1' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:786: error: 'nsNode2' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:787: error: 'nsNode3' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:788: error: 'nsNode4' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testURI]':/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:831: error: 'NSXMLElement' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:831: error: 'nsRoot' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:832: error: 'NSXMLNode' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:835: error: 'nsNode1' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:838: error: 'nsNode2' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:841: error: 'nsNode3' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:844: error: 'nsNode4' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:847: error: 'nsNode5' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testXmlns]':/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:957: error: 'NSXMLDocument' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:957: error: 'nsDoc' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:958: error: 'NSXMLElement' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:958: error: 'nsRootElement' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1010: error: 'nsNode' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1011: error: 'NSXMLNode' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testCopy]':/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1050: error: 'NSXMLDocument' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1050: error: 'nsDoc' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1055: error: 'nsDocCopy' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1056: error: 'NSXMLNode' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1058: error: 'nsDocAttr' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1059: error: 'nsDocCopyAttr' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1075: error: 'NSXMLElement' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1075: error: 'nsElement' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1076: error: 'nsElementCopy' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1083: error: 'nsElementAttr' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1084: error: 'nsElementCopyAttr' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1105: error: 'nsAttr' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1106: error: 'nsAttrCopy' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testElements]':/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1182: error: 'NSXMLDocument' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1182: error: 'nsDoc' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1187: error: 'NSXMLNode' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1187: error: 'child' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1189: error: 'NSXMLElementKind' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1191: error: 'NSXMLElement' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testXPath]':/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1238: error: 'NSXMLDocument' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1238: error: 'nsDoc' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1246: error: 'NSXMLElement' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1246: error: 'nsMenu' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1267: error: 'nsBeer' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1300: error: 'nsElement1' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1301: error: 'nsElement2' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1320: error: 'NSXMLNode' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1320: error: 'nsAttr' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1321: error: 'ddAttr' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testNodesForXPath]':/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1353: error: 'NSXMLDocument' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1353: error: 'nsDoc' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1394: error: 'NSXMLElement' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1394: error: 'nsElement1' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1395: error: 'nsElement2' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testNSXMLBugs]':/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1425: error: 'NSXMLDocument' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1425: error: 'nsDoc' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testInsertChild]':/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1449: error: 'NSXMLElement' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1449: error: 'nsParent' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1452: error: 'nsChild2' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1460: error: 'nsChild0' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1468: error: 'nsChild1' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1476: error: 'nsChild3' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m: In function '+[DDXMLTesting testElementSerialization]':/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1502: error: 'NSXMLElement' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m:1502: error: 'nse' undeclared (first use in this function){standard input}:267:non-relocatable subtraction expression, "LC0" minus "L00000000001$pb"{standard input}:267:symbol: "LC0" can't be undefined in a subtraction expression{standard input}:261:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_28" minus "L00000000001$pb"{standard input}:261:symbol: "L_OBJC_SELECTOR_REFERENCES_28" can't be undefined in a subtraction expression{standard input}:254:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_27" minus "L00000000001$pb"{standard input}:254:symbol: "L_OBJC_SELECTOR_REFERENCES_27" can't be undefined in a subtraction expression{standard input}:247:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_26" minus "L00000000001$pb"{standard input}:247:symbol: "L_OBJC_SELECTOR_REFERENCES_26" can't be undefined in a subtraction expression{standard input}:240:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_25" minus "L00000000001$pb"{standard input}:240:symbol: "L_OBJC_SELECTOR_REFERENCES_25" can't be undefined in a subtraction expression{standard input}:233:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_24" minus "L00000000001$pb"{standard input}:233:symbol: "L_OBJC_SELECTOR_REFERENCES_24" can't be undefined in a subtraction expression{standard input}:226:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_23" minus "L00000000001$pb"{standard input}:226:symbol: "L_OBJC_SELECTOR_REFERENCES_23" can't be undefined in a subtraction expression{standard input}:219:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000001$pb"{standard input}:219:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression{standard input}:212:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000001$pb"{standard input}:212:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression{standard input}:205:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000001$pb"{standard input}:205:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:198:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000001$pb"{standard input}:198:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression{standard input}:191:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000001$pb"{standard input}:191:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:184:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000001$pb"{standard input}:184:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression{standard input}:177:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000001$pb"{standard input}:177:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression{standard input}:170:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000001$pb"{standard input}:170:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression{standard input}:163:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000001$pb"{standard input}:163:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression{standard input}:156:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000001$pb"{standard input}:156:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression{standard input}:149:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000001$pb"{standard input}:149:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression{standard input}:142:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000001$pb"{standard input}:142:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression{standard input}:135:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000001$pb"{standard input}:135:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:128:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000001$pb"{standard input}:128:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:121:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000001$pb"{standard input}:121:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:114:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000001$pb"{standard input}:114:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:107:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000001$pb"{standard input}:107:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:100:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000001$pb"{standard input}:100:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:93:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"{standard input}:93:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:86:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"{standard input}:86:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:79:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"{standard input}:79:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:72:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"{standard input}:72:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:64:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:64:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:61:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000001$pb"{standard input}:61:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_15{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_16{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_17{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_18{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_19{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_20{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_21{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_22{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_23{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_24{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_25{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_26{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_27{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_28{standard input}:unknown:Undefined local symbol LC0129(4@40"Cocoa/Cocoa.h: No such file or directory310835905#78#107#2(7@74"In file included from /Users/ethan/Documents/sizing/Classes/DDXMLTesting.m310835905#18446744073709551615#0#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1#0#1#0#0"0(13@96"Cocoa/Cocoa.h: No such file or directory in /Users/ethan/Documents/sizing/Classes/DDXMLTesting.h310835905#18446744073709551615#0#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.h278283239#1#0#1#0#0"0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.h278283239#1#0#1#0#28"*: No such file or directory0(4@51"'NSXMLNode' undeclared (first use in this function)310835905#284#116#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#89#0#89#0#43"'*' undeclared (first use in this function)0(4@48"'nsNode' undeclared (first use in this function)310835905#612#114#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#114#0#114#0#43"'*' undeclared (first use in this function)0(4@51"'NSXMLNode' undeclared (first use in this function)310835905#826#117#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#130#0#130#0#43"'*' undeclared (first use in this function)0(4@48"'nsNode' undeclared (first use in this function)310835905#943#114#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#155#0#155#0#43"'*' undeclared (first use in this function)0(4@51"'NSXMLNode' undeclared (first use in this function)310835905#1156#117#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#219#0#219#0#43"'*' undeclared (first use in this function)0(4@46"'nsNs' undeclared (first use in this function)310835905#1273#112#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#219#0#219#0#43"'*' undeclared (first use in this function)0(4@54"'NSXMLElement' undeclared (first use in this function)310835905#1482#120#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#255#0#255#0#43"'*' undeclared (first use in this function)0(4@48"'nsRoot' undeclared (first use in this function)310835905#1602#114#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#255#0#255#0#43"'*' undeclared (first use in this function)0(4@48"'nsNode' undeclared (first use in this function)310835905#1716#114#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#256#0#256#0#43"'*' undeclared (first use in this function)0(4@51"'NSXMLNode' undeclared (first use in this function)310835905#1830#117#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#257#0#257#0#43"'*' undeclared (first use in this function)0(4@47"'nsNs0' undeclared (first use in this function)310835905#1947#113#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#257#0#257#0#43"'*' undeclared (first use in this function)0(4@47"'nsNs1' undeclared (first use in this function)310835905#2060#113#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#258#0#258#0#43"'*' undeclared (first use in this function)0(4@47"'nsNs2' undeclared (first use in this function)310835905#2173#113#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#259#0#259#0#43"'*' undeclared (first use in this function)0(4@54"'NSXMLElement' undeclared (first use in this function)310835905#2381#120#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#291#0#291#0#43"'*' undeclared (first use in this function)0(4@48"'nsNode' undeclared (first use in this function)310835905#2501#114#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#291#0#291#0#43"'*' undeclared (first use in this function)0(4@51"'NSXMLNode' undeclared (first use in this function)310835905#2615#117#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#307#0#307#0#43"'*' undeclared (first use in this function)0(4@48"'nsAttr' undeclared (first use in this function)310835905#2732#114#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#307#0#307#0#43"'*' undeclared (first use in this function)0(4@51"'NSXMLNode' undeclared (first use in this function)310835905#2947#117#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#331#0#331#0#43"'*' undeclared (first use in this function)0(4@48"'nsAttr' undeclared (first use in this function)310835905#3064#114#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#331#0#331#0#43"'*' undeclared (first use in this function)0(4@54"'NSXMLElement' undeclared (first use in this function)310835905#3280#120#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#365#0#365#0#43"'*' undeclared (first use in this function)0(4@48"'nsNode' undeclared (first use in this function)310835905#3400#114#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#365#0#365#0#43"'*' undeclared (first use in this function)0(4@51"'NSXMLNode' undeclared (first use in this function)310835905#3514#117#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#366#0#366#0#43"'*' undeclared (first use in this function)0(4@48"'nsAttr' undeclared (first use in this function)310835905#3631#114#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#375#0#375#0#43"'*' undeclared (first use in this function)0(4@54"'NSXMLElement' undeclared (first use in this function)310835905#3847#120#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#401#0#401#0#43"'*' undeclared (first use in this function)0(4@48"'nsNode' undeclared (first use in this function)310835905#3967#114#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#401#0#401#0#43"'*' undeclared (first use in this function)0(4@51"'NSXMLNode' undeclared (first use in this function)310835905#4081#117#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#402#0#402#0#43"'*' undeclared (first use in this function)0(4@48"'nsAttr' undeclared (first use in this function)310835905#4198#114#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#411#0#411#0#43"'*' undeclared (first use in this function)0(4@49"'nsTest1' undeclared (first use in this function)310835905#4312#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#414#0#414#0#43"'*' undeclared (first use in this function)0(4@49"'nsTest2' undeclared (first use in this function)310835905#4427#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#419#0#419#0#43"'*' undeclared (first use in this function)0(4@51"'NSXMLNode' undeclared (first use in this function)310835905#4644#117#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#434#0#434#0#43"'*' undeclared (first use in this function)0(4@49"'nsAttr1' undeclared (first use in this function)310835905#4761#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#434#0#434#0#43"'*' undeclared (first use in this function)0(4@49"'nsTest1' undeclared (first use in this function)310835905#4876#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#437#0#437#0#43"'*' undeclared (first use in this function)0(4@54"'NSXMLElement' undeclared (first use in this function)310835905#5087#120#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#477#0#477#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode0' undeclared (first use in this function)310835905#5207#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#477#0#477#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode1' undeclared (first use in this function)310835905#5322#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#478#0#478#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode2' undeclared (first use in this function)310835905#5437#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#479#0#479#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode3' undeclared (first use in this function)310835905#5552#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#480#0#480#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode4' undeclared (first use in this function)310835905#5667#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#481#0#481#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode5' undeclared (first use in this function)310835905#5782#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#482#0#482#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode6' undeclared (first use in this function)310835905#5897#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#483#0#483#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode7' undeclared (first use in this function)310835905#6012#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#484#0#484#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode8' undeclared (first use in this function)310835905#6127#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#485#0#485#0#43"'*' undeclared (first use in this function)0(4@51"'NSXMLNode' undeclared (first use in this function)310835905#6242#117#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#515#0#515#0#43"'*' undeclared (first use in this function)0(4@49"'nsAttr1' undeclared (first use in this function)310835905#6359#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#515#0#515#0#43"'*' undeclared (first use in this function)0(4@55"'NSXMLDocument' undeclared (first use in this function)310835905#6572#121#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#577#0#577#0#43"'*' undeclared (first use in this function)0(4@47"'nsDoc' undeclared (first use in this function)310835905#6693#113#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#577#0#577#0#43"'*' undeclared (first use in this function)0(4@54"'NSXMLElement' undeclared (first use in this function)310835905#6913#120#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#617#0#617#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode0' undeclared (first use in this function)310835905#7033#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#617#0#617#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode1' undeclared (first use in this function)310835905#7148#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#618#0#618#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode2' undeclared (first use in this function)310835905#7263#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#619#0#619#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode3' undeclared (first use in this function)310835905#7378#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#620#0#620#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode4' undeclared (first use in this function)310835905#7493#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#621#0#621#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode5' undeclared (first use in this function)310835905#7608#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#622#0#622#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode6' undeclared (first use in this function)310835905#7723#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#623#0#623#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode7' undeclared (first use in this function)310835905#7838#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#624#0#624#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode8' undeclared (first use in this function)310835905#7953#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#625#0#625#0#43"'*' undeclared (first use in this function)0(4@55"'NSXMLDocument' undeclared (first use in this function)310835905#8175#121#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#714#0#714#0#43"'*' undeclared (first use in this function)0(4@47"'nsDoc' undeclared (first use in this function)310835905#8296#113#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#714#0#714#0#43"'*' undeclared (first use in this function)0(4@51"'NSXMLNode' undeclared (first use in this function)310835905#8409#117#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#717#0#717#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode0' undeclared (first use in this function)310835905#8526#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#717#0#717#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode2' undeclared (first use in this function)310835905#8641#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#720#0#720#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode3' undeclared (first use in this function)310835905#8756#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#723#0#723#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode5' undeclared (first use in this function)310835905#8871#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#726#0#726#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode6' undeclared (first use in this function)310835905#8986#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#729#0#729#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode8' undeclared (first use in this function)310835905#9101#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#732#0#732#0#43"'*' undeclared (first use in this function)0(4@54"'NSXMLElement' undeclared (first use in this function)310835905#9312#120#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#785#0#785#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode1' undeclared (first use in this function)310835905#9432#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#785#0#785#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode2' undeclared (first use in this function)310835905#9547#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#786#0#786#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode3' undeclared (first use in this function)310835905#9662#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#787#0#787#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode4' undeclared (first use in this function)310835905#9777#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#788#0#788#0#43"'*' undeclared (first use in this function)0(4@54"'NSXMLElement' undeclared (first use in this function)310835905#9985#120#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#831#0#831#0#43"'*' undeclared (first use in this function)0(4@48"'nsRoot' undeclared (first use in this function)310835905#10105#114#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#831#0#831#0#43"'*' undeclared (first use in this function)0(4@51"'NSXMLNode' undeclared (first use in this function)310835905#10219#117#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#832#0#832#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode1' undeclared (first use in this function)310835905#10336#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#835#0#835#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode2' undeclared (first use in this function)310835905#10451#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#838#0#838#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode3' undeclared (first use in this function)310835905#10566#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#841#0#841#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode4' undeclared (first use in this function)310835905#10681#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#844#0#844#0#43"'*' undeclared (first use in this function)0(4@49"'nsNode5' undeclared (first use in this function)310835905#10796#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#847#0#847#0#43"'*' undeclared (first use in this function)0(4@55"'NSXMLDocument' undeclared (first use in this function)310835905#11006#121#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#957#0#957#0#43"'*' undeclared (first use in this function)0(4@47"'nsDoc' undeclared (first use in this function)310835905#11127#113#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#957#0#957#0#43"'*' undeclared (first use in this function)0(4@54"'NSXMLElement' undeclared (first use in this function)310835905#11240#120#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#958#0#958#0#43"'*' undeclared (first use in this function)0(4@55"'nsRootElement' undeclared (first use in this function)310835905#11360#121#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#958#0#958#0#43"'*' undeclared (first use in this function)0(4@48"'nsNode' undeclared (first use in this function)310835905#11481#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1010#0#1010#0#43"'*' undeclared (first use in this function)0(4@51"'NSXMLNode' undeclared (first use in this function)310835905#11596#118#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1011#0#1011#0#43"'*' undeclared (first use in this function)0(4@55"'NSXMLDocument' undeclared (first use in this function)310835905#11808#122#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1050#0#1050#0#43"'*' undeclared (first use in this function)0(4@47"'nsDoc' undeclared (first use in this function)310835905#11930#114#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1050#0#1050#0#43"'*' undeclared (first use in this function)0(4@51"'nsDocCopy' undeclared (first use in this function)310835905#12044#118#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1055#0#1055#0#43"'*' undeclared (first use in this function)0(4@51"'NSXMLNode' undeclared (first use in this function)310835905#12162#118#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1056#0#1056#0#43"'*' undeclared (first use in this function)0(4@51"'nsDocAttr' undeclared (first use in this function)310835905#12280#118#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1058#0#1058#0#43"'*' undeclared (first use in this function)0(4@55"'nsDocCopyAttr' undeclared (first use in this function)310835905#12398#122#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1059#0#1059#0#43"'*' undeclared (first use in this function)0(4@54"'NSXMLElement' undeclared (first use in this function)310835905#12520#121#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1075#0#1075#0#43"'*' undeclared (first use in this function)0(4@51"'nsElement' undeclared (first use in this function)310835905#12641#118#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1075#0#1075#0#43"'*' undeclared (first use in this function)0(4@55"'nsElementCopy' undeclared (first use in this function)310835905#12759#122#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1076#0#1076#0#43"'*' undeclared (first use in this function)0(4@55"'nsElementAttr' undeclared (first use in this function)310835905#12881#122#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1083#0#1083#0#43"'*' undeclared (first use in this function)0(4@59"'nsElementCopyAttr' undeclared (first use in this function)310835905#13003#126#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1084#0#1084#0#43"'*' undeclared (first use in this function)0(4@48"'nsAttr' undeclared (first use in this function)310835905#13129#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1105#0#1105#0#43"'*' undeclared (first use in this function)0(4@52"'nsAttrCopy' undeclared (first use in this function)310835905#13244#119#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1106#0#1106#0#43"'*' undeclared (first use in this function)0(4@55"'NSXMLDocument' undeclared (first use in this function)310835905#13461#122#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1182#0#1182#0#43"'*' undeclared (first use in this function)0(4@47"'nsDoc' undeclared (first use in this function)310835905#13583#114#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1182#0#1182#0#43"'*' undeclared (first use in this function)0(4@51"'NSXMLNode' undeclared (first use in this function)310835905#13697#118#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1187#0#1187#0#43"'*' undeclared (first use in this function)0(4@47"'child' undeclared (first use in this function)310835905#13815#114#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1187#0#1187#0#43"'*' undeclared (first use in this function)0(4@58"'NSXMLElementKind' undeclared (first use in this function)310835905#13929#125#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1189#0#1189#0#43"'*' undeclared (first use in this function)0(4@54"'NSXMLElement' undeclared (first use in this function)310835905#14054#121#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1191#0#1191#0#43"'*' undeclared (first use in this function)0(4@55"'NSXMLDocument' undeclared (first use in this function)310835905#14270#122#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1238#0#1238#0#43"'*' undeclared (first use in this function)0(4@47"'nsDoc' undeclared (first use in this function)310835905#14392#114#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1238#0#1238#0#43"'*' undeclared (first use in this function)0(4@54"'NSXMLElement' undeclared (first use in this function)310835905#14506#121#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1246#0#1246#0#43"'*' undeclared (first use in this function)0(4@48"'nsMenu' undeclared (first use in this function)310835905#14627#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1246#0#1246#0#43"'*' undeclared (first use in this function)0(4@48"'nsBeer' undeclared (first use in this function)310835905#14742#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1267#0#1267#0#43"'*' undeclared (first use in this function)0(4@52"'nsElement1' undeclared (first use in this function)310835905#14857#119#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1300#0#1300#0#43"'*' undeclared (first use in this function)0(4@52"'nsElement2' undeclared (first use in this function)310835905#14976#119#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1301#0#1301#0#43"'*' undeclared (first use in this function)0(4@51"'NSXMLNode' undeclared (first use in this function)310835905#15095#118#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1320#0#1320#0#43"'*' undeclared (first use in this function)0(4@48"'nsAttr' undeclared (first use in this function)310835905#15213#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1320#0#1320#0#43"'*' undeclared (first use in this function)0(4@48"'ddAttr' undeclared (first use in this function)310835905#15328#115#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1321#0#1321#0#43"'*' undeclared (first use in this function)0(4@55"'NSXMLDocument' undeclared (first use in this function)310835905#15546#122#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1353#0#1353#0#43"'*' undeclared (first use in this function)0(4@47"'nsDoc' undeclared (first use in this function)310835905#15668#114#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1353#0#1353#0#43"'*' undeclared (first use in this function)0(4@54"'NSXMLElement' undeclared (first use in this function)310835905#15782#121#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1394#0#1394#0#43"'*' undeclared (first use in this function)0(4@52"'nsElement1' undeclared (first use in this function)310835905#15903#119#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1394#0#1394#0#43"'*' undeclared (first use in this function)0(4@52"'nsElement2' undeclared (first use in this function)310835905#16022#119#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1395#0#1395#0#43"'*' undeclared (first use in this function)0(4@55"'NSXMLDocument' undeclared (first use in this function)310835905#16240#122#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1425#0#1425#0#43"'*' undeclared (first use in this function)0(4@47"'nsDoc' undeclared (first use in this function)310835905#16362#114#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1425#0#1425#0#43"'*' undeclared (first use in this function)0(4@54"'NSXMLElement' undeclared (first use in this function)310835905#16577#121#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1449#0#1449#0#43"'*' undeclared (first use in this function)0(4@50"'nsParent' undeclared (first use in this function)310835905#16698#117#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1449#0#1449#0#43"'*' undeclared (first use in this function)0(4@50"'nsChild2' undeclared (first use in this function)310835905#16815#117#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1452#0#1452#0#43"'*' undeclared (first use in this function)0(4@50"'nsChild0' undeclared (first use in this function)310835905#16932#117#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1460#0#1460#0#43"'*' undeclared (first use in this function)0(4@50"'nsChild1' undeclared (first use in this function)310835905#17049#117#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1468#0#1468#0#43"'*' undeclared (first use in this function)0(4@50"'nsChild3' undeclared (first use in this function)310835905#17166#117#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1476#0#1476#0#43"'*' undeclared (first use in this function)0(4@54"'NSXMLElement' undeclared (first use in this function)310835905#17393#121#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1502#0#1502#0#43"'*' undeclared (first use in this function)0(4@45"'nse' undeclared (first use in this function)310835905#17514#112#0(6@52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m278283239#1502#0#1502#0#43"'*' undeclared (first use in this function)0(0#0#52"/Users/ethan/Documents/sizing/Classes/DDXMLTesting.m8619889088#1872"    cd /Users/ethan/Documents/sizing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-generated-files.hmap -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-own-target-headers.hmap -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-all-target-headers.hmap -iquote /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-project-headers.hmap -F/Users/ethan/Documents/sizing/build/Debug-iphonesimulator -I/Users/ethan/Documents/sizing/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/DerivedSources/i386 -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/DerivedSources -include /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sizing_Prefix-eqerlsbbkygfzkdsvozaeexjmszb/sizing_Prefix.pch -c /Users/ethan/Documents/sizing/Classes/DDXMLTesting.m -o /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/DDXMLTesting.o1#
+
+CCompileC build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/NSStringAdditions.o /Users/ethan/Documents/sizing/Classes/NSStringAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310835905.750974
+e310835905.834101
+r1
+xCompileC
+xbuild/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/NSStringAdditions.o
+x/Users/ethan/Documents/sizing/Classes/NSStringAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/ethan/Documents/sizing/Classes/NSStringAdditions.m310835905#310835905#0(0"0(0#0#57"/Users/ethan/Documents/sizing/Classes/NSStringAdditions.m8617977056#1882"    cd /Users/ethan/Documents/sizing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-generated-files.hmap -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-own-target-headers.hmap -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-all-target-headers.hmap -iquote /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-project-headers.hmap -F/Users/ethan/Documents/sizing/build/Debug-iphonesimulator -I/Users/ethan/Documents/sizing/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/DerivedSources/i386 -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/DerivedSources -include /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sizing_Prefix-eqerlsbbkygfzkdsvozaeexjmszb/sizing_Prefix.pch -c /Users/ethan/Documents/sizing/Classes/NSStringAdditions.m -o /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/NSStringAdditions.o0#
+
+CCompileC build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/Webservice.o /Users/ethan/Documents/sizing/Classes/Webservice.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310837969.189894
+e310837969.305131
+r0
+xCompileC
+xbuild/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/Webservice.o
+x/Users/ethan/Documents/sizing/Classes/Webservice.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/ethan/Documents/sizing/Classes/Webservice.m: In function '+[Webservice callRestService::]':
+o/Users/ethan/Documents/sizing/Classes/Webservice.m:16: error: 'WebServices' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/Webservice.m:16: error: (Each undeclared identifier is reported only once
+o/Users/ethan/Documents/sizing/Classes/Webservice.m:16: error: for each function it appears in.)
+o/Users/ethan/Documents/sizing/Classes/Webservice.m:17: error: 'XmlParser' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/Webservice.m:17: error: 'xmlParser' undeclared (first use in this function)
+o/Users/ethan/Documents/sizing/Classes/Webservice.m:27: warning: control reaches end of non-void function
+lSLF07#2@58"Compile /Users/ethan/Documents/sizing/Classes/Webservice.m310837969#310837969#0(756"/Users/ethan/Documents/sizing/Classes/Webservice.m: In function '+[Webservice callRestService::]':/Users/ethan/Documents/sizing/Classes/Webservice.m:16: error: 'WebServices' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/Webservice.m:16: error: (Each undeclared identifier is reported only once/Users/ethan/Documents/sizing/Classes/Webservice.m:16: error: for each function it appears in.)/Users/ethan/Documents/sizing/Classes/Webservice.m:17: error: 'XmlParser' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/Webservice.m:17: error: 'xmlParser' undeclared (first use in this function)/Users/ethan/Documents/sizing/Classes/Webservice.m:27: warning: control reaches end of non-void function4(4@53"'WebServices' undeclared (first use in this function)310837969#99#116#0(6@50"/Users/ethan/Documents/sizing/Classes/Webservice.m310837927#16#0#16#0#43"'*' undeclared (first use in this function)0(4@51"'XmlParser' undeclared (first use in this function)310837969#423#114#0(6@50"/Users/ethan/Documents/sizing/Classes/Webservice.m310837927#17#0#17#0#43"'*' undeclared (first use in this function)0(4@51"'xmlParser' undeclared (first use in this function)310837969#537#114#0(6@50"/Users/ethan/Documents/sizing/Classes/Webservice.m310837927#17#0#17#0#43"'*' undeclared (first use in this function)0(22@40"Control reaches end of non-void function310837969#651#105#0(6@50"/Users/ethan/Documents/sizing/Classes/Webservice.m310837927#27#0#27#0#40"control reaches end of non-void function0(0#0#50"/Users/ethan/Documents/sizing/Classes/Webservice.m8619000480#1868"    cd /Users/ethan/Documents/sizing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-generated-files.hmap -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-own-target-headers.hmap -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-all-target-headers.hmap -iquote /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-project-headers.hmap -F/Users/ethan/Documents/sizing/build/Debug-iphonesimulator -I/Users/ethan/Documents/sizing/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/DerivedSources/i386 -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/DerivedSources -include /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sizing_Prefix-eqerlsbbkygfzkdsvozaeexjmszb/sizing_Prefix.pch -c /Users/ethan/Documents/sizing/Classes/Webservice.m -o /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/Webservice.o1#
+
+CCompileC build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/Webservices.o /Users/ethan/Documents/sizing/Classes/Webservices.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310846919.423011
+e310846919.579447
+r1
+xCompileC
+xbuild/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/Webservices.o
+x/Users/ethan/Documents/sizing/Classes/Webservices.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/ethan/Documents/sizing/Classes/Webservices.m: In function '+[Webservices callRestService:]':
+o/Users/ethan/Documents/sizing/Classes/Webservices.m:21: warning: class 'XmlParser' does not implement the 'NSXMLParserDelegate' protocol
+o/Users/ethan/Documents/sizing/Classes/Webservices.m: At top level:
+o/Users/ethan/Documents/sizing/Classes/Webservices.m:30: warning: incomplete implementation of class 'Webservices'
+o/Users/ethan/Documents/sizing/Classes/Webservices.m:30: warning: method definition for '+callRestService::' not found
+lSLF07#2@59"Compile /Users/ethan/Documents/sizing/Classes/Webservices.m310846919#310846919#0(536"/Users/ethan/Documents/sizing/Classes/Webservices.m: In function '+[Webservices callRestService:]':/Users/ethan/Documents/sizing/Classes/Webservices.m:21: warning: class 'XmlParser' does not implement the 'NSXMLParserDelegate' protocol/Users/ethan/Documents/sizing/Classes/Webservices.m: At top level:/Users/ethan/Documents/sizing/Classes/Webservices.m:30: warning: incomplete implementation of class 'Webservices'/Users/ethan/Documents/sizing/Classes/Webservices.m:30: warning: method definition for '+callRestService::' not found4(22@71"Class 'XmlParser' does not implement the 'NSXMLParserDelegate' protocol310846919#100#137#0(6@51"/Users/ethan/Documents/sizing/Classes/Webservices.m310846898#21#0#21#0#45"class '*' does not implement the '*' protocol0(23@13"At top level:310846919#237#67#0(6@51"/Users/ethan/Documents/sizing/Classes/Webservices.m310846898#0#0#0#0#0"0(22@48"Incomplete implementation of class 'Webservices'310846919#304#114#0(6@51"/Users/ethan/Documents/sizing/Classes/Webservices.m310846898#30#0#30#0#38"incomplete implementation of class '*'0(22@52"Method definition for '+callRestService::' not found310846919#418#118#0(6@51"/Users/ethan/Documents/sizing/Classes/Webservices.m310846898#30#0#30#0#35"method definition for '*' not found0(0#0#51"/Users/ethan/Documents/sizing/Classes/Webservices.m8621006784#1870"    cd /Users/ethan/Documents/sizing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-generated-files.hmap -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-own-target-headers.hmap -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-all-target-headers.hmap -iquote /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-project-headers.hmap -F/Users/ethan/Documents/sizing/build/Debug-iphonesimulator -I/Users/ethan/Documents/sizing/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/DerivedSources/i386 -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/DerivedSources -include /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sizing_Prefix-eqerlsbbkygfzkdsvozaeexjmszb/sizing_Prefix.pch -c /Users/ethan/Documents/sizing/Classes/Webservices.m -o /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/Webservices.o0#
+
+CCompileC build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/XMLParser.o /Users/ethan/Documents/sizing/Classes/XMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310846935.150355
+e310846935.362458
+r1
+xCompileC
+xbuild/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/XMLParser.o
+x/Users/ethan/Documents/sizing/Classes/XMLParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/ethan/Documents/sizing/Classes/XMLParser.m: In function '-[XmlParser parser:foundCharacters:]':
+o/Users/ethan/Documents/sizing/Classes/XMLParser.m:35: warning: 'NSString' may not respond to '-appendString:'
+o/Users/ethan/Documents/sizing/Classes/XMLParser.m:35: warning: (Messages without a matching method signature
+o/Users/ethan/Documents/sizing/Classes/XMLParser.m:35: warning: will be assumed to return 'id' and accept
+o/Users/ethan/Documents/sizing/Classes/XMLParser.m:35: warning: '...' as arguments.)
+o/Users/ethan/Documents/sizing/Classes/XMLParser.m: At top level:
+o/Users/ethan/Documents/sizing/Classes/XMLParser.m:111: warning: property 'currentElement' requires method '-currentElement' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/ethan/Documents/sizing/Classes/XMLParser.m:111: warning: property 'currentElement' requires the method 'setCurrentElement:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@57"Compile /Users/ethan/Documents/sizing/Classes/XMLParser.m310846935#310846935#0(985"/Users/ethan/Documents/sizing/Classes/XMLParser.m: In function '-[XmlParser parser:foundCharacters:]':/Users/ethan/Documents/sizing/Classes/XMLParser.m:35: warning: 'NSString' may not respond to '-appendString:'/Users/ethan/Documents/sizing/Classes/XMLParser.m:35: warning: (Messages without a matching method signature/Users/ethan/Documents/sizing/Classes/XMLParser.m:35: warning: will be assumed to return 'id' and accept/Users/ethan/Documents/sizing/Classes/XMLParser.m:35: warning: '...' as arguments.)/Users/ethan/Documents/sizing/Classes/XMLParser.m: At top level:/Users/ethan/Documents/sizing/Classes/XMLParser.m:111: warning: property 'currentElement' requires method '-currentElement' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/ethan/Documents/sizing/Classes/XMLParser.m:111: warning: property 'currentElement' requires the method 'setCurrentElement:' to be defined - use @synthesize, @dynamic or provide a method implementation5(22@46"'NSString' may not respond to '-appendString:'310846935#103#110#0(6@49"/Users/ethan/Documents/sizing/Classes/XMLParser.m310846935#35#0#35#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)310846935#213#109#0(6@49"/Users/ethan/Documents/sizing/Classes/XMLParser.m310846935#35#0#35#0#0"0(23@13"At top level:310846935#511#65#0(6@49"/Users/ethan/Documents/sizing/Classes/XMLParser.m310846935#0#0#0#0#0"0(22@136"Property 'currentElement' requires method '-currentElement' to be defined - use @synthesize, @dynamic or provide a method implementation310846935#576#201#0(6@49"/Users/ethan/Documents/sizing/Classes/XMLParser.m310846935#111#0#111#0#0"0(22@143"Property 'currentElement' requires the method 'setCurrentElement:' to be defined - use @synthesize, @dynamic or provide a method implementation310846935#777#208#0(6@49"/Users/ethan/Documents/sizing/Classes/XMLParser.m310846935#111#0#111#0#0"0(0#0#49"/Users/ethan/Documents/sizing/Classes/XMLParser.m8621495072#1866"    cd /Users/ethan/Documents/sizing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-generated-files.hmap -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-own-target-headers.hmap -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-all-target-headers.hmap -iquote /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-project-headers.hmap -F/Users/ethan/Documents/sizing/build/Debug-iphonesimulator -I/Users/ethan/Documents/sizing/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/DerivedSources/i386 -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/DerivedSources -include /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sizing_Prefix-eqerlsbbkygfzkdsvozaeexjmszb/sizing_Prefix.pch -c /Users/ethan/Documents/sizing/Classes/XMLParser.m -o /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/XMLParser.o0#
+
+CCompileC build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/main.o /Users/ethan/Documents/sizing/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310835905.023314
+e310835905.090402
+r1
+xCompileC
+xbuild/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/main.o
+x/Users/ethan/Documents/sizing/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /Users/ethan/Documents/sizing/main.m310835905#310835905#0(0"0(0#0#36"/Users/ethan/Documents/sizing/main.m8620876416#1848"    cd /Users/ethan/Documents/sizing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-generated-files.hmap -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-own-target-headers.hmap -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-all-target-headers.hmap -iquote /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-project-headers.hmap -F/Users/ethan/Documents/sizing/build/Debug-iphonesimulator -I/Users/ethan/Documents/sizing/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/DerivedSources/i386 -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/DerivedSources -include /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sizing_Prefix-eqerlsbbkygfzkdsvozaeexjmszb/sizing_Prefix.pch -c /Users/ethan/Documents/sizing/main.m -o /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/main.o0#
+
+CCompileC build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/sizingAppDelegate.o /Users/ethan/Documents/sizing/Classes/sizingAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310839109.618606
+e310839109.793263
+r1
+xCompileC
+xbuild/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/sizingAppDelegate.o
+x/Users/ethan/Documents/sizing/Classes/sizingAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/ethan/Documents/sizing/Classes/sizingAppDelegate.m310839109#310839109#0(0"0(0#0#57"/Users/ethan/Documents/sizing/Classes/sizingAppDelegate.m8620864288#1882"    cd /Users/ethan/Documents/sizing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-generated-files.hmap -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-own-target-headers.hmap -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-all-target-headers.hmap -iquote /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-project-headers.hmap -F/Users/ethan/Documents/sizing/build/Debug-iphonesimulator -I/Users/ethan/Documents/sizing/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/DerivedSources/i386 -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/DerivedSources -include /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sizing_Prefix-eqerlsbbkygfzkdsvozaeexjmszb/sizing_Prefix.pch -c /Users/ethan/Documents/sizing/Classes/sizingAppDelegate.m -o /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/sizingAppDelegate.o0#
+
+CCompileC build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/sizingViewController.o /Users/ethan/Documents/sizing/Classes/sizingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310848129.747461
+e310848130.015011
+r1
+xCompileC
+xbuild/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/sizingViewController.o
+x/Users/ethan/Documents/sizing/Classes/sizingViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/ethan/Documents/sizing/Classes/sizingViewController.m: In function '-[sizingViewController pollServer:]':
+o/Users/ethan/Documents/sizing/Classes/sizingViewController.m:20: warning: format not a string literal and no format arguments
+o/Users/ethan/Documents/sizing/Classes/sizingViewController.m:21: warning: 'Webservices' may not respond to '+callRestService:'
+o/Users/ethan/Documents/sizing/Classes/sizingViewController.m:21: warning: (Messages without a matching method signature
+o/Users/ethan/Documents/sizing/Classes/sizingViewController.m:21: warning: will be assumed to return 'id' and accept
+o/Users/ethan/Documents/sizing/Classes/sizingViewController.m:21: warning: '...' as arguments.)
+o/Users/ethan/Documents/sizing/Classes/sizingViewController.m: At top level:
+o/Users/ethan/Documents/sizing/Classes/sizingViewController.m:106: warning: property 'sizeArray' requires method '-sizeArray' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/ethan/Documents/sizing/Classes/sizingViewController.m:106: warning: property 'sizeArray' requires the method 'setSizeArray:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@68"Compile /Users/ethan/Documents/sizing/Classes/sizingViewController.m310848129#310848130#0(1184"/Users/ethan/Documents/sizing/Classes/sizingViewController.m: In function '-[sizingViewController pollServer:]':/Users/ethan/Documents/sizing/Classes/sizingViewController.m:20: warning: format not a string literal and no format arguments/Users/ethan/Documents/sizing/Classes/sizingViewController.m:21: warning: 'Webservices' may not respond to '+callRestService:'/Users/ethan/Documents/sizing/Classes/sizingViewController.m:21: warning: (Messages without a matching method signature/Users/ethan/Documents/sizing/Classes/sizingViewController.m:21: warning: will be assumed to return 'id' and accept/Users/ethan/Documents/sizing/Classes/sizingViewController.m:21: warning: '...' as arguments.)/Users/ethan/Documents/sizing/Classes/sizingViewController.m: At top level:/Users/ethan/Documents/sizing/Classes/sizingViewController.m:106: warning: property 'sizeArray' requires method '-sizeArray' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/ethan/Documents/sizing/Classes/sizingViewController.m:106: warning: property 'sizeArray' requires the method 'setSizeArray:' to be defined - use @synthesize, @dynamic or provide a method implementation6(22@51"Format not a string literal and no format arguments310848129#113#126#0(6@60"/Users/ethan/Documents/sizing/Classes/sizingViewController.m310848129#20#0#20#0#51"format not a string literal and no format arguments0(22@52"'Webservices' may not respond to '+callRestService:'310848129#239#127#0(6@60"/Users/ethan/Documents/sizing/Classes/sizingViewController.m310848129#21#0#21#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)310848129#366#120#0(6@60"/Users/ethan/Documents/sizing/Classes/sizingViewController.m310848129#21#0#21#0#0"0(23@13"At top level:310848129#697#76#0(6@60"/Users/ethan/Documents/sizing/Classes/sizingViewController.m310848129#0#0#0#0#0"0(22@126"Property 'sizeArray' requires method '-sizeArray' to be defined - use @synthesize, @dynamic or provide a method implementation310848129#773#202#0(6@60"/Users/ethan/Documents/sizing/Classes/sizingViewController.m310848129#106#0#106#0#0"0(22@133"Property 'sizeArray' requires the method 'setSizeArray:' to be defined - use @synthesize, @dynamic or provide a method implementation310848129#975#209#0(6@60"/Users/ethan/Documents/sizing/Classes/sizingViewController.m310848129#106#0#106#0#0"0(0#0#60"/Users/ethan/Documents/sizing/Classes/sizingViewController.m8622588896#1888"    cd /Users/ethan/Documents/sizing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-generated-files.hmap -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-own-target-headers.hmap -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-all-target-headers.hmap -iquote /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-project-headers.hmap -F/Users/ethan/Documents/sizing/build/Debug-iphonesimulator -I/Users/ethan/Documents/sizing/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/DerivedSources/i386 -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/DerivedSources -include /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sizing_Prefix-eqerlsbbkygfzkdsvozaeexjmszb/sizing_Prefix.pch -c /Users/ethan/Documents/sizing/Classes/sizingViewController.m -o /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/sizingViewController.o0#
+
+CCompileXIB /Users/ethan/Documents/sizing/MainWindow.xib
+s310831188.680011
+e310831189.586869
+r1
+xCompileXIB
+x/Users/ethan/Documents/sizing/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib310831188#310831189#0(0"0(0#0#44"/Users/ethan/Documents/sizing/MainWindow.xib8613940896#542"    cd /Users/ethan/Documents/sizing    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app/MainWindow.nib /Users/ethan/Documents/sizing/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/ethan/Documents/sizing/sizingViewController.xib
+s310834832.295088
+e310834833.996768
+r1
+xCompileXIB
+x/Users/ethan/Documents/sizing/sizingViewController.xib
+lSLF07#2@35"CompileXIB sizingViewController.xib310834832#310834833#0(0"0(0#0#54"/Users/ethan/Documents/sizing/sizingViewController.xib8620255776#562"    cd /Users/ethan/Documents/sizing    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app/sizingViewController.nib /Users/ethan/Documents/sizing/sizingViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CGenerateDSYMFile /Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app.dSYM /Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app/sizing
+s310848130.041651
+e310848130.058866
+r1
+xGenerateDSYMFile
+x/Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app.dSYM
+x/Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app/sizing
+lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/sizing.app.dSYM build/Debug-iphonesimulator/sizing.app/sizing310848130#310848130#0(0"0(0#0#75"/Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app/sizing8623292896#353"    cd /Users/ethan/Documents/sizing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app/sizing -o /Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app.dSYM0#
+
+CLd /Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app/sizing normal i386
+s310848130.015102
+e310848130.041564
+r1
+xLd
+x/Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app/sizing
+xnormal
+xi386
+lSLF07#2@80"Link /Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app/sizing310848130#310848130#0(0"0(0#0#0"8617427936#857"    cd /Users/ethan/Documents/sizing    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/ethan/Documents/sizing/build/Debug-iphonesimulator -F/Users/ethan/Documents/sizing/build/Debug-iphonesimulator -filelist /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/Objects-normal/i386/sizing.LinkFileList -mmacosx-version-min=10.6 -lxml2 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app/sizing0#
+
+CProcessInfoPlistFile /Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app/Info.plist sizing-Info.plist
+s310831188.645576
+e310831188.679912
+r1
+xProcessInfoPlistFile
+x/Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app/Info.plist
+xsizing-Info.plist
+lSLF07#2@25"Process sizing-Info.plist310831188#310831188#0(0"0(0#0#47"/Users/ethan/Documents/sizing/sizing-Info.plist32651513917341812#449"    cd /Users/ethan/Documents/sizing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility sizing-Info.plist -genpkginfo /Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app/Info.plist0#
+
+CProcessPCH /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sizing_Prefix-dcajvmulrlzyzrfxcsdktptnsrur/sizing_Prefix.pch.gch sizing_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s310835812.607998
+e310835814.027298
+r1
+xProcessPCH
+x/var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sizing_Prefix-dcajvmulrlzyzrfxcsdktptnsrur/sizing_Prefix.pch.gch
+xsizing_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile sizing_Prefix.pch310835812#310835814#0(0"0(0#0#47"/Users/ethan/Documents/sizing/sizing_Prefix.pch7309993515863140352#1803"    cd /Users/ethan/Documents/sizing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-generated-files.hmap -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-own-target-headers.hmap -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-all-target-headers.hmap -iquote /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-project-headers.hmap -F/Users/ethan/Documents/sizing/build/Debug-iphonesimulator -I/Users/ethan/Documents/sizing/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/DerivedSources/i386 -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/DerivedSources -c /Users/ethan/Documents/sizing/sizing_Prefix.pch -o /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sizing_Prefix-dcajvmulrlzyzrfxcsdktptnsrur/sizing_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sizing_Prefix-eqerlsbbkygfzkdsvozaeexjmszb/sizing_Prefix.pch.gch sizing_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s310835904.268212
+e310835905.023195
+r1
+xProcessPCH
+x/var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sizing_Prefix-eqerlsbbkygfzkdsvozaeexjmszb/sizing_Prefix.pch.gch
+xsizing_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile sizing_Prefix.pch310835904#310835905#0(0"0(0#0#47"/Users/ethan/Documents/sizing/sizing_Prefix.pch8598646912#1750"    cd /Users/ethan/Documents/sizing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-generated-files.hmap -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-own-target-headers.hmap -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-all-target-headers.hmap -iquote /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-project-headers.hmap -F/Users/ethan/Documents/sizing/build/Debug-iphonesimulator -I/Users/ethan/Documents/sizing/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/DerivedSources/i386 -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/DerivedSources -c /Users/ethan/Documents/sizing/sizing_Prefix.pch -o /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sizing_Prefix-eqerlsbbkygfzkdsvozaeexjmszb/sizing_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sizing_Prefix-fcqkfartlufopjbpmcgyvvcxusak/sizing_Prefix.pch.gch sizing_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s310831189.587199
+e310831192.669148
+r1
+xProcessPCH
+x/var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sizing_Prefix-fcqkfartlufopjbpmcgyvvcxusak/sizing_Prefix.pch.gch
+xsizing_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile sizing_Prefix.pch310831189#310831192#0(0"0(0#0#47"/Users/ethan/Documents/sizing/sizing_Prefix.pch8602270272#1697"    cd /Users/ethan/Documents/sizing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-generated-files.hmap -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-own-target-headers.hmap -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-all-target-headers.hmap -iquote /Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/sizing-project-headers.hmap -F/Users/ethan/Documents/sizing/build/Debug-iphonesimulator -I/Users/ethan/Documents/sizing/build/Debug-iphonesimulator/include -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/DerivedSources/i386 -I/Users/ethan/Documents/sizing/build/sizing.build/Debug-iphonesimulator/sizing.build/DerivedSources -c /Users/ethan/Documents/sizing/sizing_Prefix.pch -o /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sizing_Prefix-fcqkfartlufopjbpmcgyvvcxusak/sizing_Prefix.pch.gch0#
+
+CTouch /Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app
+s310848130.058953
+e310848130.061444
+r1
+xTouch
+x/Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app
+lSLF07#2@74"Touch /Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app310848130#310848130#0(0"0(0#0#0"8618677920#259"    cd /Users/ethan/Documents/sizing    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/ethan/Documents/sizing/build/Debug-iphonesimulator/sizing.app0#
+
